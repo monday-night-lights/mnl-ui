@@ -1,11 +1,13 @@
-#navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
+body {
+    overflow-x: hidden;
 }
 
-.main-container {
-    margin-top: 60px;
+.row {
+    display: flex;
+    align-items: stretch;  
+    flex-wrap: wrap; 
+
+    .col {
+        margin-bottom: 40px;
+    }
 }

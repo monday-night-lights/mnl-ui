@@ -1,0 +1,19 @@
+.card {
+  height: 100%;
+
+
+  .card-image {
+      max-height: 405px;
+      overflow: hidden;
+  }
+
+  .card-content {
+      margin-bottom: 34px;
+  }
+
+  .card-action {
+      bottom: 0;
+      position: absolute;
+      width: 100%;
+  }
+}

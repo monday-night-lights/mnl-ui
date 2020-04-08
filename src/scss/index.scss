@@ -1,1 +1,15 @@
+// home
+@import '../components//home/hero/hero.scss';
+@import '../components/home/cards/cards.scss';
+
+// podcast
+@import '../components/podcast/podcast.scss';
+
+// calendar
+@import '../components/calendar//calendar.scss';
+
+// shared
+@import '../components/shared/nav/navbar.scss';
+@import '../components//shared/footer/footer.scss';
+
 @import './main.scss';

@@ -1,0 +1,12 @@
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  .brand-logo {
+    height: 100%;
+    
+    img {
+      height: 100%;
+    }
+  }  
+}
