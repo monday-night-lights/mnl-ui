@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Background from '../../../assets/background';
+import Background from '~/assets/background';
 
 const Hero = () => (
     <div className="hero">

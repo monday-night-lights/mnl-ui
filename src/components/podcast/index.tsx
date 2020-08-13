@@ -4,7 +4,6 @@ import podcast from '../../assets/podcast.png';
 // var podcast = Podcast;
 
 const Podcast = () => (
-  <>
     <div className="podcast-content">
       <h4>Monday Night Lights Podcast</h4>
       <p>A podcast about MNL Hockey League. 70 skaters, 7 goalies, and 1 dream.</p>
@@ -26,7 +25,6 @@ const Podcast = () => (
           className="waves-effect waves-red btn-flat">Watch on YouTube</a>
       </div>
     </div>
-  </>
 );
 
 export default Podcast;

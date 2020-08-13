@@ -54,7 +54,6 @@
         "@types/materialize-css": "^1.0.7",
         "assets": "^3.0.1",
         "axios": "^0.18.1",
-        "components": "^0.1.0",
         "connected-react-router": "^6.5.2",
         "js-cookie": "^2.2.1",
         "lodash": "^4.17.15",

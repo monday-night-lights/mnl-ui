@@ -12,57 +12,57 @@ import speechImage     from './speech.jpg';
 import taylorsImage    from './taylors.jpg';
 import weaverImage     from './weaver.jpg';
 
-let allstar = {
+const allstar = {
   image: allstarImage,
   offset: -15
 };
 
-let americans = {
+const americans = {
   image: americansImage,
   offset: -3
 };
 
-let broadcast = {
+const broadcast = {
   image: broadcastImage,
   offset: -9
 };
 
-let champions = {
+const champions = {
   image: championsImage,
   offset: -6
 };
 
-let diques = {
+const diques = {
   image: diquesImage,
   offset: -9
 };
 
-let draft = {
+const draft = {
   image: draftImage,
   offset: -20
 };
 
-let draftboard = {
+const draftboard = {
   image: draftboardImage,
   offset: -11
 };
 
-let hats = {
+const hats = {
   image: hatsImage,
   offset: -12
 };
 
-let speech = {
+const speech = {
   image: speechImage,
   offset: -15
 };
 
-let taylors = {
+const taylors = {
   image: taylorsImage,
   offset: -18
 };
 
-let weaver = {
+const weaver = {
   image: weaverImage,
   offset: -22
 };

@@ -4,7 +4,6 @@ import { Navbar, Icon, NavItem, Dropdown, Divider } from 'react-materialize';
 import photo from '../../../assets/mnlhl-logo.png';
 
 const NavBar = () => (
-    <>
         <Navbar
             alignLinks="right"
             brand={<a className="brand-logo" href="/"><img src={photo} /></a>}
@@ -127,7 +126,6 @@ const NavBar = () => (
             </NavItem>
 
         </Navbar>
-    </>
 );
 
 export default NavBar;
