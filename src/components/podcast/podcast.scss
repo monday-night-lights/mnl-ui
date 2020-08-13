@@ -1,0 +1,27 @@
+.podcast-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  img {
+    max-width: 500px;
+    height: auto;
+  
+    @media (max-width: 600px) {
+      & {
+        max-width: 300px;
+      }
+    }
+  }
+
+
+
+  .podcast-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+}
