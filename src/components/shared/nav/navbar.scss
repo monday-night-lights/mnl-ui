@@ -2,11 +2,35 @@ nav {
   position: sticky;
   top: 0;
   z-index: 10;
+  
+  .container {
+    width: 95% !important;
+  }
+
   .brand-logo {
     height: 100%;
     
     img {
       height: 100%;
     }
+
+  }
+
+  .side-nav-logo {
+    @media (min-width: 768px) {
+      display: none;
+    }
   }  
+}
+
+#mobile-nav { 
+  .logo {
+    
+    .brand-logo {
+      img {
+        padding: 0 32px;
+        display: initial;
+      }
+    }
+  }
 }
