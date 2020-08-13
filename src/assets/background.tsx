@@ -67,10 +67,11 @@ let weaver = {
   offset: -22
 };
 
-function Background() {
-    var pictures = [allstar, americans, broadcast, champions, diques, draft, draftboard, hats, speech, taylors, weaver];
-    let picture = pictures[Math.floor(Math.random()*pictures.length)];
+const Background = () => {
+    const pictures = [allstar, americans, broadcast, champions, diques, draft, draftboard, hats, speech, taylors, weaver];
+    const { image, offset } = pictures[Math.floor(Math.random()*pictures.length)];
+    
     // Import result is the URL of your image
-    return <img src={picture.image} style={{ marginTop: `${picture.offset}%` }} className="hero-image" />;
+    return <img src={image} style={{ marginTop: `${offset}%` }} className="hero-image" />;
 }
 export default Background;
